@@ -13,5 +13,5 @@ class Game:
   def activateBug() =
     this.bug.flap(15.0)
 
-  def isLost = this.obstacle.touches(this.bug)
+  def isLost = !this.bug.isInBounds
 end Game

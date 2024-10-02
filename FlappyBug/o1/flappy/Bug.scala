@@ -12,9 +12,11 @@ class Bug(private var currentPos: Pos):
 
   def flap(strength: Double) = this.yVelocity = -strength
   def fall() =
-    if this.currentPos.y < 350 then this.yVelocity = this.yVelocity + FallingSpeed
+    if this.currentPos.y < ViewHeight - GroundDepth then this.yVelocity = this.yVelocity + FallingSpeed
     move(this.yVelocity)
 
   private def move(down: Double) =
     this.currentPos = this.currentPos.addY(down).clampY(0, 350)
+
+  def isInBounds: Boolean = this.currentPos.y > 0 && this.currentPos.y < ViewHeight - GroundDepth
 end Bug
