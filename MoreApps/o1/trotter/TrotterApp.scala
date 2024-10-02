@@ -27,14 +27,9 @@ object trotterView extends View("Trotter App", 8):
     game.advance()
 
   override def onKeyDown(key: Key) =
-    if key == Key.Up then
-      game.horseHeading = Direction.Up
-    else if key == Key.Down then
-      game.horseHeading = Direction.Down
-    else if key == Key.Left then
-      game.horseHeading = Direction.Left
-    else if key == Key.Right then
-      game.horseHeading = Direction.Right
+    Direction.fromArrowKey(key) match
+      case Some(dir) => game.horseHeading = dir
+      case _ => ()
 
 end trotterView
 
