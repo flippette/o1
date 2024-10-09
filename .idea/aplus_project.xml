@@ -22,8 +22,27 @@
       <module name="Football3" downloadedAt="2024-10-02T14:16:18.542833262Z" version="1.0" />
       <module name="Blood" downloadedAt="2024-10-02T21:59:31.221229086Z" version="1.0" />
       <module name="AuctionHouse1" downloadedAt="2024-10-02T22:13:23.840772665Z" version="1.0" />
+      <module name="ForLoops" downloadedAt="2024-10-09T12:55:19.765458603Z" version="1.0" />
+      <module name="Election" downloadedAt="2024-10-09T13:09:43.043493735Z" version="1.0" />
     </modules>
-    <option name="newsReadTime" value="2024-10-01T02:55:54.872287172Z" />
+    <option name="newsReadTime" value="2024-10-04T09:35:40.897574830Z" />
     <option name="url" value="https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_course_config.json" />
+  </component>
+  <component name="Duplicate Submission Checker">
+    <submissionHashes>
+      <exercise id="57903" hashes="SMneKANsGYLgoT/W/Hcy5MMN4WltCFTrG9iAMN2bqxs=;kxaGY531FYInYOdfxlkJqTydt6cu1l7jSdgJsEmkgKA=" />
+      <exercise id="57907" hashes="WoGuyNwYZUQqsUUSfikuvP5oU2D/kDtH/fQqHhFYgiI=;WFGLyzVnbj93IPiBTAH1WYPRbOlnaIM8dmY4+5EyM2A=" />
+      <exercise id="57908" hashes="WFGLyzVnbj93IPiBTAH1WYPRbOlnaIM8dmY4+5EyM2A=;qBfP7wFktxI1MyLWiLk15NfOYU73MSeZ13SyD/GlkCY=;Go4noyLLpgaFb+jN1/QDnBxXSTb7mAbnKRhD9FT7RCk=" />
+      <exercise id="57909" hashes="+x6CWwWr93oTyDa6S3Dnw3CK7cjfkdccRGYBe680mjI=;MtGDJ4O1r87i0Gft5XQmb5zltb8/3wqfoBDkjHPZrIw=" />
+      <exercise id="57920" hashes="jKSWl5AUkCAaIxtivpqxvwfzkYrt1syHBrPDRYWjUZA=" />
+      <exercise id="57923" hashes="ltiklQE88apRFvUAESSHHF7drzYAb7Nq4wGAq/osv5w=;y/1Y3gZNxzNzOp4j3JodU+aGt1nbhsqRBQ9+Rav21Nc=" />
+      <exercise id="57924" hashes="syx0tp4Y94REQN2aMVpuwDLQ97Uz0jYFMh3eHKQZy0o=;gQ2UUHja7Z2lw17jneP5eLWiB9qW1c9qnbT1HW70qbo=" />
+      <exercise id="57925" hashes="nBRiSyaKV6g+mlGHsplbYy4zs5zM99cbNkOKKjqGP/Y=" />
+      <exercise id="57926" hashes="f+HSN27OLmrsG3dMWEePRrDjCCsHN/m2AIe4Qx96VmM=" />
+      <exercise id="57927" hashes="aSl4KQkYoWyX2vg4EuMT0XRpg0Sl+eMV4NnZxd4dipg=;Waj312xRkAwdYkKegVS/GVNcAVD3vCDGK4zPDFXJ+rI=;b156Q2DC+V4+lsiIhpc9EzcyjqasqFImcMay7vXMHn4=" />
+      <exercise id="57928" hashes="/anypjK8qeuR8AAhlwQ49OdzJIL2PlFvq22ZpAHHyCo=;0CKmxWJAZdlrBtosEs9intNkqQcbOsXzyJz+b85uIew=" />
+      <exercise id="57930" hashes="t5SE0O++J2Eoj1TMr17ouNCcEH0IZwEn2xz9jov2uK0=;gKUfN9dttLJW7tEUNVhDSrn7o7lkEjW7p9kZg/Nmk0U=" />
+      <exercise id="57932" hashes="DKqdxlf9f1ToxZOChr1+emLHBUyKv6lzD7qhmD44c3k=;zftzrX72KEke2jrfw29WJSFo3ReA0hBR/rAZ+i71CDI=;e3KvcCnA/hL8wvDl24I0R/gPE7fc+anZ63nob3Z2lpI=;ehNmPttCH51vELYCP7G7PwpjKCqm7jb14mfiErZMg1M=" />
+    </submissionHashes>
   </component>
 </project>

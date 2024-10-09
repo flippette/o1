@@ -34,7 +34,13 @@ val DefaultStarListFile = "stars.csv"
   *
   * @param starAsString  a star described in six or seven semicolon-separated parts */
 def parseStarInfo(starAsString: String): Star =
-  ???  // TODO: replace this with a proper implementation
+  val data = starAsString.split(';')
+  Star(
+    data(3).toInt,
+    StarCoords(data(0).toDouble, data(1).toDouble),
+    data(4).toDouble,
+    data.lift(6)
+  )
 
 
 /** Reads in a star map from the files in a given folder. The folder is expected to contain at least
