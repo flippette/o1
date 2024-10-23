@@ -4,7 +4,14 @@ import o1.*
 // This assignment from Chapter 7.1 is completely optional.
 
 def blur(pic: Pic): Pic =
-  ??? // TODO: implement this
+  pic.transformXY((x, y) =>
+    val neighbors = pic.pixelsNear(Pos(x, y), 1.415)
+    val avg = neighbors
+      .map(c => Vector(c.red, c.green, c.blue))
+      .reduce(_.zip(_).map(_ + _))
+      .map(_ / neighbors.length)
+    Color(avg(0), avg(1), avg(2))
+  )
 
 // Implement the blur function above so that it takes in a Pic and returns a
 // blurred version of it. The blurred version is formed by transforming each
