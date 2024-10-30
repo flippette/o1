@@ -29,30 +29,11 @@
       <module name="Sentiments" downloadedAt="2024-10-22T11:29:39.995986525Z" version="1.0" />
       <module name="Traits" downloadedAt="2024-10-22T12:19:41.614259684Z" version="1.0" />
       <module name="AuctionHouse2" downloadedAt="2024-10-22T14:49:32.164613208Z" version="1.0" />
+      <module name="Viinaharava" downloadedAt="2024-10-29T21:15:56.882276751Z" version="1.0" />
+      <module name="Robots" downloadedAt="2024-10-29T22:55:20.848619321Z" version="1.0" />
+      <module name="CitySim" downloadedAt="2024-10-30T01:01:15.454188708Z" version="1.0" />
     </modules>
-    <option name="newsReadTime" value="2024-10-04T09:35:40.897574830Z" />
+    <option name="newsReadTime" value="2024-10-29T21:15:54.030352525Z" />
     <option name="url" value="https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_course_config.json" />
-  </component>
-  <component name="Duplicate Submission Checker">
-    <submissionHashes>
-      <exercise id="57740" hashes="0CKmxWJAZdlrBtosEs9intNkqQcbOsXzyJz+b85uIew=" />
-      <exercise id="57741" hashes="ixQ2HJlt5OuL4GsUG7zMNs7hsV7wY8dpwbdX/dfXYMg=;vOt9OqxlfYH1PQV+5uUscUPEi6KwlIqrnKvWiBJiJrg=;vOt9OqxlfYH1PQV+5uUscUPEi6KwlIqrnKvWiBJiJrg=" />
-      <exercise id="57743" hashes="Fh2PWrobztgCZIQhb/hpKYIY628Zmi04GY14t0ZwntQ=;gHWxHI+fALn4K5vGM4LnL4a35mmB5XjBjmu1jUcfyBM=" />
-      <exercise id="57744" hashes="URyRGQN+slIEKmv+U4pHnlRfSOlaoiF4SR5tTlDVymY=" />
-      <exercise id="57745" hashes="Bloq0KIXkFBTnvDbU18pwZzeOeFm8GafP6aV8CIjXm0=" />
-      <exercise id="57748" hashes="/cIS/Avm0v0YDOh6OPfhxP20POcdPhvUnOPG8DPI8Qs=;ED0du2SOU+dD/TI2+APKshg1P5QK2nBBnfOGSxrTqB0=;eoBkCqItznrIJHFdHPeCGT9TSObq8JmUPKYD5UkC5/Y=;ApgcxunwRVSj2lNtjjybtQZbA5ncoDmxqwS/Y9fwOfI=;t4lbK7ZlVCpLhklOQK262pIvkU12NTn53PSxnWGBUI8=;8T6L7wVJM/Ln29TeKhF81aLSSB5uj3qq9o786RAh4Cs=;EOcrOlv4hND3pwBoFGZ7n9zyX+Y5+cTjy5Ii4GdXlaE=;kd7jbpVaGuphCtSL0VigODV1LegN6GLSIq8OvZmm63c=" />
-      <exercise id="57756" hashes="JHGNiFYfzToMhQvBrJQo9jp8o+7fbrWdkwhwUMfpq7A=" />
-      <exercise id="57757" hashes="Iv0FBEqqNahpwWa12DQ/ItXCpK66zuOfoz8Yzm+LL8M=" />
-      <exercise id="57758" hashes="Iv0FBEqqNahpwWa12DQ/ItXCpK66zuOfoz8Yzm+LL8M=" />
-      <exercise id="57763" hashes="36x1OBn3lRDRziFHUsEETJGOGWyzokBgEH0B+e3cSA0=" />
-      <exercise id="57767" hashes="GOi+Ye2K3HPKvkHPi6aIBNPfdxQOpZZ8hL5yhFkpWXY=" />
-      <exercise id="57769" hashes="x9Jgd0iFFC5uV4z15qaKVdsoDE2q+/5FT8e7NAC2pZA=;jupgP1zyYWIIjKTmcX5ekWmFvuzYFI5qz5nVaHkweU4=;2m3olIKhWvHAm1opR3nzckeSAp4b8hqUwjFoHuGIFuE=;ULZjUz455safP55jKWBYETJ2GcFTw3/8MxgDjVv066U=;WkgsvHdoAc+XNy+jPCWHQO/YQFIPfLkKyoWhZVC0HGc=" />
-      <exercise id="57770" hashes="aXiJ5s9ykzNn6RT9cVbvdNjkfF39OXW2R6v67dgWwHs=;t/3zNOfC2UVkbDZaKw+dKizwyozMR7o3QAGOMfZjCn8=" />
-      <exercise id="57774" hashes="BDZhu5Xy2Z44HtS9+KSZvibokmWuSD6Ko3TU9CJZhXA=" />
-      <exercise id="62128" hashes="OGetFmpiIh/CrdDB489ZKY7F4wynJlDKmtSLYTpBSyU=;HahUeSY1lQOBtZfxGjEq6sgADqzePUPluP/utTVjsXs=" />
-      <exercise id="62736" hashes="W5H42TUVHGXWh+IX2xcpu6U6P6BQ6Zem3BMbvNIrKtI=;iWaG+eqJu8k2xYEC1Ujc4/d3VCHWImrWkY+DlBxXgvc=;NGAgjyfW4e0mEw3nV9QFcY0xtqXdYHjFjVTAIOpeVew=;l9vCPjdA/JhsRx+80aWiwR1Q9WlkG7qYQizImiWcVO4=" />
-      <exercise id="62734" hashes="BasHuRa21KvbSihu2J+YXCJj2N/wunTK5xGjfXNJbW8=;oWd9P0HFu83pZyTswiv9Z0C3Ij1jUlrr7A6sTWo7wWY=" />
-      <exercise id="62735" hashes="MCi+Y52VVu7sZvBC6G36RhFTutjM6XZP9MH9kUi2MzU=" />
-    </submissionHashes>
   </component>
 </project>
