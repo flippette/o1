@@ -30,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/Subprograms/Subprograms.iml" filepath="$PROJECT_DIR$/Subprograms/Subprograms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Traits/Traits.iml" filepath="$PROJECT_DIR$/Traits/Traits.iml" />
       <module fileurl="file://$PROJECT_DIR$/Viinaharava/Viinaharava.iml" filepath="$PROJECT_DIR$/Viinaharava/Viinaharava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhileLoops/WhileLoops.iml" filepath="$PROJECT_DIR$/WhileLoops/WhileLoops.iml" />
     </modules>
   </component>
 </project>

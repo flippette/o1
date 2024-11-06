@@ -32,6 +32,8 @@
       <module name="Viinaharava" downloadedAt="2024-10-29T21:15:56.882276751Z" version="1.0" />
       <module name="Robots" downloadedAt="2024-10-29T22:55:20.848619321Z" version="1.0" />
       <module name="CitySim" downloadedAt="2024-10-30T01:01:15.454188708Z" version="1.0" />
+      <module name="Train" downloadedAt="2024-11-06T09:48:53.122467049Z" version="1.0" />
+      <module name="WhileLoops" downloadedAt="2024-11-06T09:49:22.555643553Z" version="1.0" />
     </modules>
     <option name="newsReadTime" value="2024-10-29T21:15:54.030352525Z" />
     <option name="url" value="https://gitmanager.cs.aalto.fi/static/O1_2024/modules/o1_course_config.json" />
