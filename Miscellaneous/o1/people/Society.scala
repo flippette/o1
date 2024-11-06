@@ -13,6 +13,7 @@ class Society(val name: String):
 
   def getByID(memberID: Int) = this.members.get(memberID)
 
-  // TODO: add yearOfDeath as instructed in Chapter 9.2.
+  def yearOfDeath(id: Int): Option[Int] =
+    members.get(id).flatMap(_.yearOfDeath)
 
 end Society

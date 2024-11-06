@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adventure/Adventure.iml" filepath="$PROJECT_DIR$/Adventure/Adventure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdventureDraft/AdventureDraft.iml" filepath="$PROJECT_DIR$/AdventureDraft/AdventureDraft.iml" />
       <module fileurl="file://$PROJECT_DIR$/AuctionHouse1/AuctionHouse1.iml" filepath="$PROJECT_DIR$/AuctionHouse1/AuctionHouse1.iml" />
       <module fileurl="file://$PROJECT_DIR$/AuctionHouse2/AuctionHouse2.iml" filepath="$PROJECT_DIR$/AuctionHouse2/AuctionHouse2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ave/Ave.iml" filepath="$PROJECT_DIR$/Ave/Ave.iml" />
