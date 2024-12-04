@@ -1,0 +1,13 @@
+pages = [{"l":"index.html#","e":false,"i":"","n":"Family Docs","t":"Family Docs","d":"","k":"static","x":""},
+{"l":"o1/family.html#","e":false,"i":"","n":"o1.family","t":"o1.family","d":"","k":"package","x":""},
+{"l":"o1/family/FamilyMember.html#","e":false,"i":"","n":"FamilyMember","t":"FamilyMember(val name: String, val children: Vector[FamilyMember])","d":"o1.family","k":"class","x":""},
+{"l":"o1/family/FamilyMember.html#children-0","e":false,"i":"","n":"children","t":"children: Vector[FamilyMember]","d":"o1.family.FamilyMember","k":"val","x":""},
+{"l":"o1/family/FamilyMember.html#everyoneBelow-0","e":false,"i":"","n":"everyoneBelow","t":"everyoneBelow: Vector[FamilyMember]","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#isChildless-0","e":false,"i":"","n":"isChildless","t":"isChildless: Boolean","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#mostChildren-0","e":false,"i":"","n":"mostChildren","t":"mostChildren: FamilyMember","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#name-0","e":false,"i":"","n":"name","t":"name: String","d":"o1.family.FamilyMember","k":"val","x":""},
+{"l":"o1/family/FamilyMember.html#numberOfChildren-0","e":false,"i":"","n":"numberOfChildren","t":"numberOfChildren: Int","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#numberOfDescendants-0","e":false,"i":"","n":"numberOfDescendants","t":"numberOfDescendants: Int","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#numberOfDescendantsAt-fffffbe0","e":false,"i":"","n":"numberOfDescendantsAt","t":"numberOfDescendantsAt(generation: Int): Int","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#numberOfDescendingGenerations-0","e":false,"i":"","n":"numberOfDescendingGenerations","t":"numberOfDescendingGenerations: Int","d":"o1.family.FamilyMember","k":"def","x":""},
+{"l":"o1/family/FamilyMember.html#<init>-fffff7e1","e":false,"i":"","n":"this","t":"this(name: String)","d":"o1.family.FamilyMember","k":"def","x":""}];

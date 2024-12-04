@@ -14,11 +14,11 @@ import scala.util.Random
   * Once created, a `GameBoard` does not replace any of its `Glass` objects with another.
   * However, the state of each individual `Glass` may change.
   *
-  * @param width       the number of glasses in each row of the game board
-  * @param height      the number of rows of glasses in the game board
-  * @param boozeCount  the number of booze glasses on the game board. When a `GameBoard` object
-  *                    is created, it randomly chooses this many different locations on the
-  *                    board and pours booze in them. */
+  * @param width      the number of glasses in each row of the game board
+  * @param height     the number of rows of glasses in the game board
+  * @param boozeCount the number of booze glasses on the game board. When a `GameBoard` object
+  *                   is created, it randomly chooses this many different locations on the
+  *                   board and pours booze in them. */
 class GameBoard(width: Int, height: Int, boozeCount: Int) extends Grid[Glass](width, height):
 
   /** Generates the elements that initially occupy the grid. In the case of a `GameBoard` grid,
@@ -28,27 +28,22 @@ class GameBoard(width: Int, height: Int, boozeCount: Int) extends Grid[Glass](wi
     * **Note to students:** You don’t need to call this method. Don’t call it. You might want
     * to call `allElements`, though. */
   def initialElements =
-    val allLocations = (0 until this.size).map( n => GridPos(n % this.width, n / this.width) )
-    allLocations.map( loc => Glass(this, loc) )
+    val allLocations = (0 until this.size).map(n => GridPos(n % this.width, n / this.width))
+    allLocations.map(loc => Glass(this, loc))
 
   this.placeBoozeAtRandom(boozeCount) // This happens after the superclass has used initialElements to fill the board with water
 
-  // Randomly selects `howMany` different glasses on the board and calls the pourBooze
-  // method of each of those Glass objects.
-  private def placeBoozeAtRandom(howMany: Int) =
-    LazyList.continually(this.randomElement()).distinct.take(howMany).foreach(_.pourBooze())
-
   /** Returns a collection of all the booze glasses currently on the board. */
   def boozeGlasses = this.allElements.filter(_.isBooze)
-
-  /** Determines whether all the water on the board has been drunk already. This is
-    * the case if and only if each of the glasses either contains booze or is empty. */
-  def isOutOfWater: Boolean = this.allElements.forall(glass => glass.isBooze ^ glass.isEmpty)
 
   /** Determines whether the game is over. The game is over if (a) there are one or
     * more empty booze glasses on the board; or (b) there are no full water glasses
     * on the board. */
   def isGameOver = this.isOutOfWater || this.allElements.exists(glass => glass.isBooze && glass.isEmpty)
+
+  /** Determines whether all the water on the board has been drunk already. This is
+    * the case if and only if each of the glasses either contains booze or is empty. */
+  def isOutOfWater: Boolean = this.allElements.forall(glass => glass.isBooze ^ glass.isEmpty)
 
   /** Virtually drinks the contents of the given glass.
     *
@@ -60,10 +55,20 @@ class GameBoard(width: Int, height: Int, boozeCount: Int) extends Grid[Glass](wi
     * in the game’s GUI: all the locations of booze glasses will be revealed, and the
     * game will end. However, *this* method does nothing more than empty the glasses.)
     *
-    * @param target  a glass on this game board */
+    * @param target a glass on this game board */
   def drink(target: Glass): Unit =
     if target.isBooze then this.boozeGlasses.foreach(_.empty())
-    else target.empty()
+    else
+      target.empty()
+      if target.isSafe then
+        target.neighbors.filter(
+          glass => !glass.isEmpty && !glass.isBooze
+        ).foreach(drink)
+
+  // Randomly selects `howMany` different glasses on the board and calls the pourBooze
+  // method of each of those Glass objects.
+  private def placeBoozeAtRandom(howMany: Int) =
+    LazyList.continually(this.randomElement()).distinct.take(howMany).foreach(_.pourBooze())
 
 end GameBoard
 
